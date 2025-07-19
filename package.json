@@ -1,0 +1,28 @@
+{
+  "name": "watchlist",
+  "version": "0.1.0",
+  "description": "A watchlist application for groups of users to create a watchlist.",
+  "main": "api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Lunasphere",
+    "url": "https://lunasphere.co.uk"
+  },
+  "contributors": [
+    {
+      "name": "Leila-Codes",
+      "url": "https://github.com/Leila-Codes",
+      "email": "leila.richardson-noyes@lunasphere.co.uk"
+    }
+  ],
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@10.12.1",
+  "workspaces": [
+    "api",
+    "app",
+    "db"
+  ]
+}
